@@ -21,9 +21,9 @@ export function Hero() {
           <img
             src={logo.url}
             alt="Luíza Carrozza Nutricionista"
-            width={160}
-            height={80}
-            className="h-16 w-auto sm:h-20"
+            width={632}
+            height={226}
+            className="h-11 w-auto sm:h-14"
             fetchPriority="high"
           />
           <span className="hidden text-[0.7rem] tracking-[0.28em] text-muted-foreground uppercase sm:block">
