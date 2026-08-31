@@ -23,7 +23,7 @@ export function Hero() {
             alt="Luíza Carrozza Nutricionista"
             width={160}
             height={80}
-            className="h-12 w-auto sm:h-14"
+            className="h-16 w-auto sm:h-20"
             fetchPriority="high"
           />
           <span className="hidden text-[0.7rem] tracking-[0.28em] text-muted-foreground uppercase sm:block">
@@ -79,14 +79,14 @@ export function Hero() {
                 width={1240}
                 height={1240}
                 fetchPriority="high"
-                className="w-full rounded-full object-cover mix-blend-multiply"
+                className="w-full rounded-full object-cover"
               />
               <div
                 aria-hidden="true"
                 className="absolute inset-0 rounded-full ring-1 ring-ink/8 ring-inset"
               />
             </div>
-            <span className="absolute right-2 bottom-2 hidden rotate-3 rounded-full bg-background/80 px-4 py-2 text-[0.7rem] tracking-[0.22em] text-ink uppercase backdrop-blur-sm sm:block">
+            <span className="absolute right-0 -bottom-2 hidden rotate-2 rounded-full bg-background/80 px-4 py-2 text-[0.7rem] tracking-[0.22em] text-ink uppercase backdrop-blur-sm sm:block">
               Nutrição individualizada
             </span>
           </div>
